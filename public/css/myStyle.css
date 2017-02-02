@@ -1,0 +1,331 @@
+@charset "utf-8";
+/* CSS Document */
+/*		.nav{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+}
+.nav a{
+	text-decoration:none;
+	color:#999;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.nav a:hover{
+	color:black;
+	text-shadow: 2px 2px 2px #888888;
+}
+
+.roundCorner{
+	border: thin solid black;
+	border-radius: 10px;
+	padding: 5px;
+    box-shadow: 0px 0px 10px #a3a3a3;
+}
+
+
+
+td{
+	padding:5px;
+}*/
+
+
+
+.topHead{
+	background-color:#023343;
+	height:10%;
+	color:#09ae98;
+	font-family:"Agency FB";
+	font-size:52px;
+	text-align:left;
+	padding:5% 0% 0% 0%;
+}
+.whiteFontColor{
+	color:white;
+}
+.socialIcon{
+	float:right;
+	width:15%;
+	margin:1% 1% auto auto;
+}
+.searchBox{
+	border-radius:15px 15px;
+	background-color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	height:20px;
+	overflow:hidden;
+	border:none;
+}
+
+textarea{
+	border:none;
+}
+
+
+.mainImage{
+	height:400px;
+	overflow:hidden;
+}
+
+.logo{
+	position:absolute;
+	top:7%;
+	left:0.5%;
+	
+}
+.col-sm-11{
+	padding:0% 0% 0% 0%;
+}
+
+.breaking{
+	background-color:#09d6b9;
+	height:172px;
+	padding:2% 2% 2% 5%;
+	overflow:hidden;	
+}
+
+.padding{
+	padding:2% 2% 2% 5%;
+}
+
+
+.horizontalSpace{
+	height:20px;
+}
+
+.col-sm-12{
+	padding:0%;
+	margin:0%;
+}
+
+.row{
+	padding:0%;
+	margin:0%;
+}
+.col-sm-4{
+	padding:0%;
+	margin:0%;
+}
+
+.col-sm-5{
+	padding-right:0%;
+	margin:0%;
+}
+
+.col-sm-6{
+	padding:0%;
+	margin:0%;
+}
+
+.col-sm-1{
+	padding:0%;
+	margin:0%;
+}
+
+.col-sm-11{
+	padding:0%;
+	margin:0%;
+	overflow:hidden;
+}
+
+.col-sm-12{
+	overflow:hidden;
+}
+.container-fluid{
+	padding:0%;
+	margin:0%;
+}
+
+.footer{
+	background-color:#023343;
+	padding:1% 1% 1% 1%;
+}
+
+.imageSlider{
+	width:7000px;
+	position:relative;
+	height:480px;
+	overflow:hidden;
+	animation:mainImageSlider linear infinite 15s;
+}
+
+.image1{
+	width:1282px;
+}
+
+/*<!--@keyframes mainImageSlider{
+	0%{left:0px}
+	23%{left:0px}
+	26%{left:-1285px}
+	47%{left:-1285px}
+	50%{left:-2568px}
+	72%{left:-2568px}
+	75%{left:-3854px}
+	99.9%{left:-3854px}
+	100%{left:0px}
+
+}-->*/
+
+@keyframes mainImageSlider{
+	0%{left:0px}
+	2%{left:-1285px}
+	23%{left:-1285px}
+	26%{left:-2568px}
+	47%{left:-2568px}
+	50%{left:-3854px}
+	72%{left:-3854px}
+	75%{left:-5139px}
+	100%{left:-5139px}
+
+}
+
+.mainMenu{
+	position:absolute;
+	z-index:100;
+	left:5.4%;
+	top:18%;
+	
+}
+
+.subMenu:hover>SubSubMenu{
+	display:block;
+}
+
+.SubSubMenu{
+	position:absolute;
+	left:160px;
+	top:43px;
+	display:none;
+}
+
+
+
+.menu ul{
+	padding:0%;
+	margin:0%;
+}
+.menu li{
+	width:140px;
+	list-style-type:none;
+	float:left;
+}
+
+.menuWidth{
+	width:250px;
+}
+
+
+.menu a{
+	background-color:#09ae98;
+	line-height:40px;
+	display:block;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	border:thin solid white;
+}
+.menu a:hover{
+	background-color:#023343;
+}
+
+.menuEvenColor{
+	background-color:#09ae96;
+}
+
+.subMenu{
+	display:none;
+	position:relative;
+	
+}
+
+.subMenu a{
+	text-align:left;
+	padding-left:5%;
+
+}
+.menu li:hover>ul{
+	display:block;
+}
+
+.subSubMenu ul{
+
+	position:absolute;
+	left:150px;
+}
+
+.news{
+	padding:1% 1% 1% 1%;
+	font-family:"Agency FB";
+	font-size:25px;
+
+	
+}
+
+
+.news a{
+	text-decoration:none;
+	color:#023343;
+	display:block;
+}
+
+
+
+.newss{
+	animation-name:news;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-timing-function:linear;
+		position:absolute;
+	z-index:500;
+}
+
+
+
+
+
+
+.newss:hover{
+	animation-play-state:paused;
+}
+
+
+
+@keyframes news{
+	0%{top:0px}
+	50%{top:-270px}
+	50.01%{top:170px}
+	100%{top:0px}
+}
+
+.heading{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:32px;
+	color:#09ae98;
+}
+
+.subHeading{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#09ae98;
+}
+
+.news a:hover{
+	text-shadow:#000 3px 3px 3px;
+	color:#FFF;
+}
+
+.overflowHidden{
+	overflow:hidden;
+}
+
+.videoDiv{
+	width:50%;
+	height:auto;
+	padding-right:4%;
+	float:left;
+}
+
